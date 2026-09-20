@@ -1,8 +1,8 @@
 import './App.css';
-import Home from './Customer/Home/Home';
+import SalonDetails from './Customer/Salon/Salon Details/SalonDetails';
 
 function App() {
-  return <Home />;
+  return <SalonDetails />;
 }
 
 export default App;
