@@ -13,6 +13,7 @@ const SalonDetail= () => {
                 <div className='col-span-1'>
                     <img className='w-full rounded-md h-[15rem] object-cover' src='https://i.pinimg.com/originals/6b/2c/6d/6b2c6df56a4ec752985a6be7e8cc1bca.jpg' alt=''/>
                 </div>
+                
             </section>
         </div>
     )
