@@ -13,7 +13,19 @@ const SalonDetail= () => {
                 <div className='col-span-1'>
                     <img className='w-full rounded-md h-[15rem] object-cover' src='https://i.pinimg.com/originals/6b/2c/6d/6b2c6df56a4ec752985a6be7e8cc1bca.jpg' alt=''/>
                 </div>
-                
+            </section>
+            <section className='space-y-3'>
+                <h1 className='font-bold text-3xl'>
+                    <p>
+                        Ambavadi choke, Banglore
+                    </p>
+                    <p>
+                        <strong>
+                            TIming :
+                        </strong>
+                        10:00:00 To 18:30:00
+                    </p>
+                </h1>
             </section>
         </div>
     )
