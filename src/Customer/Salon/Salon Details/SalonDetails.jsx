@@ -1,7 +1,7 @@
 import React from 'react';
 import SalonDetail from './SalonDetail';
 import { Button, Divider } from '@mui/material';
-import { useState,useEffect } from 'react';
+import { useState } from 'react';
 
 const tabs = [{name:"All services" },{name: "Reviews"},{name: "Create Review"}]
 const SalonDetails = () => {
