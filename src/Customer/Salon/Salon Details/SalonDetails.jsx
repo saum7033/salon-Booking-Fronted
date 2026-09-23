@@ -2,6 +2,7 @@ import React from 'react';
 import SalonDetail from './SalonDetail';
 import { Button, Divider } from '@mui/material';
 import { useState } from 'react';
+import SalonServiceDetails from './SalonServiceDetails';
 
 const tabs = [{name:"All services" },{name: "Reviews"},{name: "Create Review"}]
 const SalonDetails = () => {
@@ -24,7 +25,7 @@ const SalonDetails = () => {
                 </div>:activeTab.name==="Reviews"?<div>
                     Review List
                 </div>:<div>
-                    Salon Services details
+                    <SalonServiceDetails/>
                 </div>}
             </div>
         </div>
