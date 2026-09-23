@@ -15,17 +15,13 @@ const SalonDetail= () => {
                 </div>
             </section>
             <section className='space-y-3'>
-                <h1 className='font-bold text-3xl'>
-                    <p>
-                        Ambavadi choke, Banglore
-                    </p>
-                    <p>
-                        <strong>
-                            TIming :
-                        </strong>
-                        10:00:00 To 18:30:00
-                    </p>
-                </h1>
+                <div className="font-bold text-3xl">
+    <p>Ambavadi choke, Bangalore</p>
+
+    <p>
+        <strong>Timing:</strong> 10:00:00 To 18:30:00
+    </p>
+</div>
             </section>
         </div>
     )
