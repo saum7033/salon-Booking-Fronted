@@ -1,8 +1,10 @@
 import './App.css';
-import SalonDetails from './Customer/Salon/Salon Details/SalonDetails';
+import Booking from './Customer/Booking/Booking';
+// import SalonDetails from './Customer/Salon/Salon Details/SalonDetails';
 
 function App() {
-  return <SalonDetails />;
+  // return <SalonDetails />;
+  return <Booking/>
 }
 
 export default App;
