@@ -1,7 +1,7 @@
 import './App.css';
 // import Booking from './Customer/Booking/Booking';
 // import SalonDetails from './Customer/Salon/Salon Details/SalonDetails';
-import Notificat
+import Notification from './Customer/Notification/Notification'
 
 function App() {
   // return <SalonDetails />;
