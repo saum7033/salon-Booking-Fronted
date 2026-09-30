@@ -35,7 +35,7 @@ const handleClose = () => {
                     <h1 className="text-lg font-semibold">Som</h1>
                     <IconButton id="basic-button"
                 aria-controls={open ? 'basic-menu' : undefined}
-                aria-haspopup="ture"
+                aria-haspopup="true"
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}>
                         <Avatar sx={{bgcolor:"greeen"}}></Avatar>
@@ -45,7 +45,7 @@ const handleClose = () => {
                     anchorEl={anchorE1}
                     open = {open}
                     onClose={handleClose}
-                    menuListProps={{
+                    MenuListProps={{
                         'aria-labelledby' : 'basic-button',
                     }}>
                     <MenuItem onClick={handleClose}>My Bookings</MenuItem>
