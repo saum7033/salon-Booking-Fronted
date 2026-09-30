@@ -14,7 +14,7 @@ const handleClose = () => {
     return (
         <div className="z-50 px-6 flex items-center justify-between py-2">
             <div className="flex items-center gap-10">
-                <h1 className="cursor-pointer font-bold text-2xl"></h1>
+                <h1 className="cursor-pointer font-bold text-2xl">Salon Booking</h1>
                 <div className="flex items-center gap-5">
                     <h1>Home</h1>
                 </div>
