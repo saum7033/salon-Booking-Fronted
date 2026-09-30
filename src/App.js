@@ -8,7 +8,7 @@ function App() {
   // return <SalonDetails />;
   // return <Booking/>
   // return <Notification/>
-  return NavBar
+  return <NavBar/>
 }
 
 export default App;

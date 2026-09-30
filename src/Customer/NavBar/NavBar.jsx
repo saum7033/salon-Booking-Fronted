@@ -1,4 +1,4 @@
-import { NotificationsActive } from "@mui/icons-material";
+import { AccountCircle, NotificationsActive } from "@mui/icons-material";
 import { Avatar, Badge, Button, IconButton, Menu, MenuItem } from "@mui/material";
 import React from "react";
 
@@ -26,6 +26,11 @@ const handleClose = () => {
                         <NotificationsActive color="primary"/>
                     </Badge>
                 </IconButton>
+                {true? <div className="flex gap-1 items-center">
+                    </div>
+                    :
+                    <IconButton>
+                        <AccountCircle sx = {{fontSize:"45px", color:"green"}}/></IconButton>}
                 <div className="flex gap-1 items-center">
                     <h1 className="text-lg font-semibold">Som</h1>
                     <IconButton id="basic-button"
