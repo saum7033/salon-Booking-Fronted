@@ -1,10 +1,12 @@
 import './App.css';
-import Booking from './Customer/Booking/Booking';
+// import Booking from './Customer/Booking/Booking';
 // import SalonDetails from './Customer/Salon/Salon Details/SalonDetails';
+import Notification from './Customer/Notification/Notification'
 
 function App() {
   // return <SalonDetails />;
-  return <Booking/>
+  // return <Booking/>
+  return <Notification/>
 }
 
 export default App;
